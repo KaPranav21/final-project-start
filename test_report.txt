@@ -59,7 +59,7 @@ Browserslist: caniuse-lite is outdated. Please run:
       at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:3945:14)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (53 ms)
+  ✕ renders the course name somewhere (51 ms)
 
   ● renders the course name somewhere
 
@@ -82,12 +82,12 @@ FAIL src/App.test.tsx
 ----------------------|---------|----------|---------|---------|-------------------
 File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------------------|---------|----------|---------|---------|-------------------
-All files             |    0.81 |        0 |    2.38 |    0.83 |                   
- src                  |    1.14 |        0 |    3.33 |    1.17 |                   
+All files             |    0.78 |        0 |    2.32 |    0.81 |                   
+ src                  |    1.08 |        0 |    3.22 |    1.13 |                   
   App.tsx             |     100 |      100 |     100 |     100 |                   
   Board.tsx           |       0 |        0 |       0 |       0 | 7-36              
   BoardSquare.tsx     |       0 |        0 |       0 |       0 | 13-26             
-  Layout.tsx          |       0 |        0 |       0 |       0 | 18-122            
+  Layout.tsx          |       0 |        0 |       0 |       0 | 18-170            
   Overlay.tsx         |       0 |      100 |       0 |       0 | 7-8               
   Pic.tsx             |       0 |        0 |       0 |       0 | 5-13              
   Square.tsx          |       0 |        0 |       0 |       0 | 7-11              
@@ -105,5 +105,5 @@ All files             |    0.81 |        0 |    2.38 |    0.83 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.527 s
+Time:        2.469 s
 Ran all test suites.
