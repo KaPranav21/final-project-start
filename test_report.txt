@@ -59,7 +59,7 @@ Browserslist: caniuse-lite is outdated. Please run:
       at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:3945:14)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (60 ms)
+  ✕ renders the course name somewhere (56 ms)
 
   ● renders the course name somewhere
 
@@ -82,7 +82,7 @@ FAIL src/App.test.tsx
 ----------------------|---------|----------|---------|---------|-------------------
 File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------------------|---------|----------|---------|---------|-------------------
-All files             |    0.71 |        0 |    2.27 |    0.74 |                   
+All files             |    0.64 |        0 |    1.96 |    0.67 |                   
  src                  |    0.98 |        0 |    3.12 |    1.02 |                   
   App.tsx             |     100 |      100 |     100 |     100 |                   
   Board.tsx           |       0 |        0 |       0 |       0 | 7-36              
@@ -98,13 +98,13 @@ All files             |    0.71 |        0 |    2.27 |    0.74 |
  src/components       |       0 |        0 |       0 |       0 |                   
   CBoard.tsx          |       0 |        0 |       0 |       0 | 18-53             
   ItemTransformer.tsx |       0 |        0 |       0 |       0 | 12-67             
-  Lister.tsx          |       0 |      100 |       0 |       0 | 8-14              
+  Lister.tsx          |       0 |      100 |       0 |       0 | 9-19              
   card.ts             |       0 |        0 |       0 |       0 |                   
   data.ts             |       0 |      100 |     100 |       0 | 3-39              
-  mCard.ts            |       0 |        0 |       0 |       0 |                   
+  filterModal.tsx     |       0 |        0 |       0 |       0 | 11-33             
 ----------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.946 s
+Time:        2.811 s
 Ran all test suites.
