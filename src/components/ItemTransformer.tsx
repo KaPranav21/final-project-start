@@ -14,7 +14,6 @@ const TileItem = ({ item, deleteTile }: ItemSet) => {
     const { id, name, left, top, height, width, color } = item;
     const [position, setPosition] = useState({ top: top, left: left });
     const [isHovered, setIsHovered] = useState(false);
-    const [isFilter, setIsFilter] = useState(false);
 
     const [{ isDragging }, drag] = useDrag({
         item: {

@@ -8,7 +8,7 @@ const TileSequence = () => {
     return (
         <div id="furniture-lit">
             <h4>Task:</h4>
-            {/* <FilterNote filterList={filterList}></FilterNote> */}
+            {/* <FilterNotee filterList={filterList}></FilterNote> */}
             <RevealAnswer></RevealAnswer>
         </div>
     );
