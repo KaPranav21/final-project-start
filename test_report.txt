@@ -87,7 +87,7 @@ All files             |    0.66 |        0 |    2.08 |    0.68 |
   App.tsx             |     100 |      100 |     100 |     100 |                   
   Board.tsx           |       0 |        0 |       0 |       0 | 7-36              
   BoardSquare.tsx     |       0 |        0 |       0 |       0 | 13-26             
-  Layout.tsx          |       0 |        0 |       0 |       0 | 20-204            
+  Layout.tsx          |       0 |        0 |       0 |       0 | 20-223            
   Overlay.tsx         |       0 |      100 |       0 |       0 | 7-8               
   Pic.tsx             |       0 |        0 |       0 |       0 | 5-13              
   Square.tsx          |       0 |        0 |       0 |       0 | 8-12              
@@ -96,7 +96,7 @@ All files             |    0.66 |        0 |    2.08 |    0.68 |
  src/Interfaces       |       0 |        0 |       0 |       0 |                   
   room.ts             |       0 |        0 |       0 |       0 |                   
  src/components       |       0 |        0 |       0 |       0 |                   
-  CBoard.tsx          |       0 |        0 |       0 |       0 | 22-60             
+  CBoard.tsx          |       0 |        0 |       0 |       0 | 23-61             
   ItemTransformer.tsx |       0 |        0 |       0 |       0 | 13-69             
   Lister.tsx          |       0 |      100 |       0 |       0 | 5-6               
   RevealAnswer.tsx    |       0 |        0 |       0 |       0 | 7-33              
@@ -107,5 +107,5 @@ All files             |    0.66 |        0 |    2.08 |    0.68 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.719 s
+Time:        2.662 s
 Ran all test suites.
