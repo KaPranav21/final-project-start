@@ -59,7 +59,7 @@ Browserslist: caniuse-lite is outdated. Please run:
       at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:3945:14)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (54 ms)
+  ✕ renders the course name somewhere (51 ms)
 
   ● renders the course name somewhere
 
@@ -82,12 +82,12 @@ FAIL src/App.test.tsx
 ----------------------|---------|----------|---------|---------|-------------------
 File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------------------|---------|----------|---------|---------|-------------------
-All files             |     0.6 |        0 |    2.04 |    0.63 |                   
- src                  |    0.99 |        0 |    3.33 |    1.03 |                   
+All files             |    0.56 |        0 |    1.81 |    0.58 |                   
+ src                  |    0.86 |        0 |    2.77 |    0.89 |                   
   App.tsx             |     100 |      100 |     100 |     100 |                   
   Board.tsx           |       0 |        0 |       0 |       0 | 7-36              
   BoardSquare.tsx     |       0 |        0 |       0 |       0 | 13-26             
-  Layout.tsx          |       0 |        0 |       0 |       0 | 20-152            
+  Layout.tsx          |       0 |        0 |       0 |       0 | 20-173            
   Overlay.tsx         |       0 |      100 |       0 |       0 | 7-8               
   Pic.tsx             |       0 |        0 |       0 |       0 | 5-13              
   Square.tsx          |       0 |        0 |       0 |       0 | 8-12              
@@ -96,8 +96,8 @@ All files             |     0.6 |        0 |    2.04 |    0.63 |
  src/Interfaces       |       0 |        0 |       0 |       0 |                   
   room.ts             |       0 |        0 |       0 |       0 |                   
  src/components       |       0 |        0 |       0 |       0 |                   
-  CBoard.tsx          |       0 |        0 |       0 |       0 | 22-61             
-  ItemTransformer.tsx |       0 |        0 |       0 |       0 | 15-117            
+  CBoard.tsx          |       0 |        0 |       0 |       0 | 24-65             
+  ItemTransformer.tsx |       0 |        0 |       0 |       0 | 17-119            
   Lister.tsx          |       0 |      100 |       0 |       0 | 7-8               
   RevealAnswer.tsx    |       0 |        0 |       0 |       0 | 8-31              
   Task.ts             |       0 |        0 |       0 |       0 |                   
@@ -107,5 +107,5 @@ All files             |     0.6 |        0 |    2.04 |    0.63 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.883 s
+Time:        2.781 s
 Ran all test suites.
